@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style/style.css" />
+		<title>SwooshX</title>
+	</head>
+	<body>
+		<div class="nav-bar">
+			<div class="name-container">
+				<h1><a class="name-logo" href="index.html">SwooshX</a></h1>
+			</div>
+
+			<div class="desktop-links">
+				<li><a class="color-links" href="all.html">Featured</a></li>
+				<li><a class="color-links" href="shoe.html">Shoes</a></li>
+				<li><a class="color-links" href="running.html">Running Shoes</a></li>
+				<li><a class="color-links" href="basketball.html">Basketball Shoes</a></li>
+				<li><a class="links color-links" href="#contact">Contact</a></li>
+			</div>
+
+			<div class="logo-container">
+				<img class="cart-logo" src="cart.png" />
+
+				<div class="hamburger-logo">
+					<span class="bar1 bar"></span>
+					<span class="bar2 bar"></span>
+					<span class="bar3 bar"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="overlay hidden"></div>
+
+		<div class="products-page hidden">
+			<img class="products-page-image" />
+			<div class="products-page-content">
+				<div class="products-page-text"></div>
+				<div class="products-page-type"></div>
+				<form class="products-page-form">
+					<label for="size">Size</label>
+					<select class="products-page-size" name="size" id="size" required>
+						<option value="7">7</option>
+						<option value="7.5">7.5</option>
+						<option value="8">8</option>
+						<option value="8.5">8.5</option>
+						<option value="9">9</option>
+						<option value="9.5">9.5</option>
+						<option value="10">10</option>
+						<option value="10.5">10.5</option>
+						<option value="11">11</option>
+						<option value="11.5">11.5</option>
+						<option value="12">12</option>
+						<option value="12.5">12.5</option>
+						<option value="13">13</option>
+					</select>
+					<label for="quantity">Quantity</label>
+					<input class="products-page-quantity" type="number" value="1" min="1" onkeypress="return event.keyCode!=13" />
+					<div class="products-page-price"></div>
+					<div class="shop-item-title">
+						<button class="shop-item-button" type="button">Add To Cart</button>
+					</div>
+				</form>
+			</div>
+
+			<div class="close-page">
+				<a class="close-page close-btn"></a>
+			</div>
+		</div>
+
+		<div class="hamburger">
+			<div class="hamburger-container">
+				<ul>
+					<li><a href="all.html">Featured</a></li>
+					<li><a href="shoe.html">Shoes</a></li>
+					<li><a href="running.html">Running Shoes</a></li>
+					<li><a href="basketball.html">Basketball Shoes</a></li>
+					<li><a class="links" href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="cart-container">
+			<div class="close-cart">
+				<a class="close-btn"></a>
+			</div>
+			<div class="cart-name">
+				<h3>Shopping Cart</h3>
+			</div>
+			<div class="cart"></div>
+			<div class="cart-total-price">
+				<p>YOUR CART IS EMPTY</p>
+			</div>
+			<div class="checkout"></div>
+		</div>
+
+		<div class="main-image">
+			<h1>The Best Place To</h1>
+			<h1>Buy Sneakers</h1>
+		</div>
+
+		<div class="main-section">
+			<div class="products-main-text" id="shoes">
+				<h1>Shoes</h1>
+			</div>
+
+			<div class="products-container">
+				<div class="products-box">
+					<img class="products-image" src="nike0.png" />
+					<div class="products-text">
+						<h3>Nike Blazer '77</h3>
+					</div>
+					<div class="products-type">
+						<p>Shoe</p>
+					</div>
+					<div class="products-price">
+						<p>$129</p>
+					</div>
+				</div>
+				<div class="products-box">
+					<img class="products-image" src="nike1.png" />
+					<div class="products-text">
+						<h3>Nike Air Force 1</h3>
+					</div>
+					<div class="products-type">
+						<p>Shoe</p>
+					</div>
+					<div class="products-price">
+						<p>$149</p>
+					</div>
+				</div>
+				<div class="products-box">
+					<img class="products-image" src="nike2.png" />
+					<div class="products-text">
+						<h3>Nike Zoom Tiger</h3>
+					</div>
+					<div class="products-type">
+						<p>Shoe</p>
+					</div>
+					<div class="products-price">
+						<p>$269</p>
+					</div>
+				</div>
+				<div class="products-box">
+					<img class="products-image" src="nike3.png" />
+					<div class="products-text">
+						<h3>Nike Vapor Max 180</h3>
+					</div>
+					<div class="products-type">
+						<p>Shoe</p>
+					</div>
+					<div class="products-price">
+						<p>$209</p>
+					</div>
+				</div>
+			</div>
+			<div class="products-container">
+				<div class="products-box">
+					<img class="products-image" src="nike4.png" />
+					<div class="products-text">
+						<h3>Nike Color Swoosh</h3>
+					</div>
+					<div class="products-type">
+						<p>Shoe</p>
+					</div>
+					<div class="products-price">
+						<p>$219</p>
+					</div>
+				</div>
+				<div class="products-box">
+					<img class="products-image" src="nike5.png" />
+					<div class="products-text">
+						<h3>Nike Air Force '07</h3>
+					</div>
+					<div class="products-type">
+						<p>Shoe</p>
+					</div>
+					<div class="products-price">
+						<p>$179</p>
+					</div>
+				</div>
+				<div class="products-box">
+					<img class="products-image" src="nike6.png" />
+					<div class="products-text">
+						<h3>Nike Zoom Freak 2</h3>
+					</div>
+					<div class="products-type">
+						<p>Shoe</p>
+					</div>
+					<div class="products-price">
+						<p>$179</p>
+					</div>
+				</div>
+				<div class="products-box">
+					<img class="products-image" src="nike7.png" />
+					<div class="products-text">
+						<h3>Nike Free Metcon 3</h3>
+					</div>
+					<div class="products-type">
+						<p>Shoe</p>
+					</div>
+					<div class="products-price">
+						<p>$179</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="email-container">
+			<form>
+				<h1>NEWSLETTER</h1>
+				<div class="email_group">
+					<input type="email" id="email" name="email" placeholder="Enter your email here" class="email_field" required />
+					<input type="submit" value="Subscribe" />
+				</div>
+			</form>
+		</div>
+
+		<div class="footer" id="contact">
+			<p><a href="https://jwsamuel.netlify.app" target="_blank">Portfolio: jwsamuel.netlify.app</a></p>
+			<p>Email: jessewidjaja@gmail.com</p>
+		</div>
+
+		<div class="copyright">
+			<p>SwooshX © 2021</p>
+			<p>Code and design by <a href="https://jwsamuel.netlify.app" target="_blank">Jesse Samuel Widjaja</a></p>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
